@@ -1,0 +1,52 @@
+body{
+  transform : rotateY(45deg) rotateX(45deg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  width:100%;
+  height:100%;
+}
+
+.rolling_group{
+  display:flex;
+
+  width: 600px;
+  height: 600px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding:100px;
+  gap: 50px;
+
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.rolling_line{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.rolling_item{
+  background: url('https://www.rd.com/wp-content/uploads/2019/11/cat-10-e1573844975155.jpg?fit=700,700');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+
+  text-align:right;
+  font-size: 100px;
+  color: greenyellow;
+
+  margin: 0;
+  padding: 0;
+}
